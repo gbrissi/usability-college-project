@@ -188,6 +188,6 @@
 
 @media only screen and (max-width: 600px){
   .maps-embed > iframe {
-    max-height: 180px;
+    max-height: 200px;
   }
 }
