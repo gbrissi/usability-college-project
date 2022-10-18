@@ -6,6 +6,8 @@
 
 .custom-navbar {
     height: 60px;
+    margin: 0;
+    padding: 0;
 }
 
 .svg-logo {
@@ -16,7 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: calc(100vh - 60px);
+    height: calc(100vh - 60px);
     margin-top: 60px;
     padding: 0;
     background-color:  #e5b73b;
@@ -31,7 +33,8 @@
 }
 
 .logo-banner {
-    filter: brightness(0%);
+    filter: brightness(0%);   
+    width: 450px;
 }
 
 .arrow-down {
@@ -78,4 +81,35 @@
 }
 .arrow-down:hover {
     cursor: pointer;
+}
+
+#about-section {
+  min-height: 70vh;
+}
+
+#services-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background-color:  #e5b73b;
+  min-height: 60vh;
+}
+
+.content-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+  flex-direction: row;
+}
+
+.card-services {
+  padding: 1rem;
+}
+
+.collapse-navbar {
+  padding-left: 3rem;
+  padding-right: 1rem;
 }
