@@ -131,6 +131,15 @@
   background-color:  #e5b73b !important;
 }
 
+@media only screen and (max-width: 575px){
+  .service-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center !important;
+  }
+}
+
 #services-section {
   display: flex;
   justify-content: center;
