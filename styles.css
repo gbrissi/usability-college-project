@@ -114,7 +114,7 @@
   align-items: center;
   padding: 0;
   background-color:  #e5b73b;
-  min-height: 60vh;
+  min-height: 65vh;
 }
 
 .content-card {
@@ -134,3 +134,19 @@
   padding-left: 3rem;
   padding-right: 1rem;
 }
+
+#testimony-section {
+  min-height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='ffffff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+ }
+ 
+ .carousel-control-next-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='ffffff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+ }
