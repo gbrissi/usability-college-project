@@ -185,3 +185,9 @@
     max-height: 300px;
   }
 }
+
+@media only screen and (max-width: 600px){
+  .maps-embed > iframe {
+    max-height: 180px;
+  }
+}
