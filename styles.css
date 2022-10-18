@@ -178,6 +178,10 @@
   align-items: center;
   min-height: 65vh;
   background-color: #e5b73b;
-} #contact-section > .container {
-  padding: 3rem !important;
+} 
+
+@media only screen and (max-width: 1200px){
+  .maps-embed > iframe {
+    max-height: 300px;
+  }
 }
