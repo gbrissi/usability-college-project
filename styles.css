@@ -89,20 +89,20 @@
 
 .icon-list {
   margin-top: 2.5rem !important;
-  font-size: 2rem;
+  font-size: 2.5rem;
 } 
 
 .social-icon-link {
   all: unset; 
-  margin-right: 1.5rem; 
+  margin-right: 1.7rem; 
   cursor: pointer;
 } .social-icon-link:hover {
   color:  #e5b73b;
 }
 
 .about-button {
-  padding-left: 1.4rem;
-  padding-right: 1.4rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
   font-weight: 700;
 } .about-button:hover {
   background-color:  #e5b73b !important;
