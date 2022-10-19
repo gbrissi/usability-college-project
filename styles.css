@@ -137,12 +137,15 @@
   color: white;
 }
 
+.service-block {
+  transition: 0.5s;
+}
 .service-block:hover > i {
-  color: white;
+  transform: scale(1.1);
 } .service-block:hover > div > h4 {
-  color: white;
+  transform: scale(1.01);
 } .service-block:hover > div > p {
-  color: white;
+  transform: scale(1.01);
 }
 @media only screen and (max-width: 575px){
   .service-block {
