@@ -131,9 +131,11 @@
   background-color:  #d27634 !important;
 }
 
-.info-icons:hover > i {
+.info-icons {
+  cursor: pointer;
+} .info-icons:hover > a > i {
   color: white;
-}.info-icons:hover > p {
+}.info-icons:hover > a > p {
   color: white;
 }
 
