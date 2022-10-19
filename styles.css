@@ -131,6 +131,12 @@
   background-color:  #d27634 !important;
 }
 
+.info-icons:hover > i {
+  color: white;
+}.info-icons:hover > p {
+  color: white;
+}
+
 .service-block:hover > i {
   color: white;
 } .service-block:hover > div > h4 {
