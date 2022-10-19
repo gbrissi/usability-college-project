@@ -131,13 +131,20 @@
   background-color:  #d27634 !important;
 }
 
+.service-block:hover > i {
+  color: white;
+} .service-block:hover > div > h4 {
+  color: white;
+} .service-block:hover > div > p {
+  color: white;
+}
 @media only screen and (max-width: 575px){
   .service-block {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center !important;
-  }
+  } 
 }
 
 #services-section {
