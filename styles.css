@@ -1,3 +1,5 @@
+/* Orange Color: #d27634 */
+
 * {
     padding: 0;
     margin: 0;
@@ -22,7 +24,7 @@
     min-height: calc(100vh - 60px);
     margin-top: 60px;
     padding: 0;
-    background-color:  #d27634;
+    background-color:  #F28C28;
 }
 
 .banner > .container > .display-4 {
@@ -58,7 +60,7 @@
     -o-animation: arrow 0.5s 1s infinite ease-out alternate;
     animation: arrow 0.5s 1s infinite ease-out alternate;
 } .arrow-down:hover > path {
-  color: white;
+  color: #424242;
 }
 @-webkit-keyframes arrow {
     0% {
@@ -120,7 +122,7 @@
   margin-right: 1.7rem; 
   cursor: pointer;
 } .social-icon-link:hover {
-  color:  #d27634;
+  color:  #F28C28;
 }
 
 .about-button {
@@ -128,15 +130,15 @@
   padding-right: 1.3rem;
   font-weight: 700;
 } .about-button:hover {
-  background-color:  #d27634 !important;
+  background-color:  #F28C28 !important;
 }
 
 .info-icons {
   cursor: pointer;
 } .info-icons:hover > a > i {
-  color: white;
+  color: #424242
 }.info-icons:hover > a > p {
-  color: white;
+  color: #424242
 }
 
 .service-block {
@@ -163,7 +165,7 @@
   justify-content: center;
   align-items: center;
   padding: 0;
-  background-color:  #d27634;
+  background-color:  #F28C28;
   min-height: 65vh;
 }
 
@@ -206,7 +208,7 @@
   justify-content: center;
   align-items: center;
   min-height: 65vh;
-  background-color: #d27634;
+  background-color: #F28C28;
 } 
 
 @media only screen and (max-width: 1200px){
