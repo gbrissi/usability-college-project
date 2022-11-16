@@ -60,7 +60,7 @@
     -o-animation: arrow 0.5s 1s infinite ease-out alternate;
     animation: arrow 0.5s 1s infinite ease-out alternate;
 } .arrow-down:hover > path {
-  color: #424242;
+  color: #7D5532;
 }
 @-webkit-keyframes arrow {
     0% {
@@ -122,7 +122,7 @@
   margin-right: 1.7rem; 
   cursor: pointer;
 } .social-icon-link:hover {
-  color:  #e67817;
+  color:  #fc8319;
 }
 
 .about-button {
@@ -130,15 +130,15 @@
   padding-right: 1.3rem;
   font-weight: 700;
 } .about-button:hover {
-  background-color:  #e67817 !important;
+  background-color:  #c96914 !important;
 }
 
 .info-icons {
   cursor: pointer;
 } .info-icons:hover > a > i {
-  color: #424242
+  color: #FDBA77
 }.info-icons:hover > a > p {
-  color: #424242
+  color: #FDBA77
 }
 
 .service-block > i {
